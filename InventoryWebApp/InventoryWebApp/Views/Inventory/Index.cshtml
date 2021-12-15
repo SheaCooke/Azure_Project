@@ -1,4 +1,7 @@
-﻿<div class="box-shadow">
+﻿@using InventoryWebApp.Data 
+@model List<InventoryItem>
+
+<div class="box-shadow">
     <h3>Inventory: </h3>
     <table class="table">
         <thead>
@@ -12,7 +15,7 @@
             </tr>
         </thead>
         <tbody>
-           @* @foreach (var i in Model)
+            @foreach (var i in Model)
             {
 
 
@@ -21,13 +24,13 @@
                     <td style="background-color:lightcoral;">@i.Name</td>
                     <td style="background-color:lightcoral;">@i.Description</td>
                     <td style="background-color:lightcoral;">@i.Quantity</td>
-                    <td style="background-color:lightcoral;">@i.Price</td>
+                    <td style="background-color:lightcoral;">@i.PricePerItem</td>
                     <td style="background-color:lightcoral;"><a asp-controller="User" asp-action="Completed" id="button" asp-route-id="@i.Id">Remove</a></td>
 
                 </tr>
 
 
-            }*@
+            }
 
 
         </tbody>

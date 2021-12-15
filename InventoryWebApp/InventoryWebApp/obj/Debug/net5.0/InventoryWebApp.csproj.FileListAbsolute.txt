@@ -39,3 +39,12 @@ C:\Users\Shea Cooke\Desktop\EvenMoreCode\Azure_Project\InventoryWebApp\Inventory
 C:\Users\Shea Cooke\Desktop\EvenMoreCode\Azure_Project\InventoryWebApp\InventoryWebApp\obj\Debug\net5.0\InventoryWebApp.pdb
 C:\Users\Shea Cooke\Desktop\EvenMoreCode\Azure_Project\InventoryWebApp\InventoryWebApp\obj\Debug\net5.0\InventoryWebApp.genruntimeconfig.cache
 C:\Users\Shea Cooke\Desktop\EvenMoreCode\Azure_Project\InventoryWebApp\InventoryWebApp\obj\Debug\net5.0\InventoryWebApp.csproj.CopyComplete
+C:\Users\Shea Cooke\Desktop\EvenMoreCode\Azure_Project\InventoryWebApp\InventoryWebApp\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Shea Cooke\Desktop\EvenMoreCode\Azure_Project\InventoryWebApp\InventoryWebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Shea Cooke\Desktop\EvenMoreCode\Azure_Project\InventoryWebApp\InventoryWebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Shea Cooke\Desktop\EvenMoreCode\Azure_Project\InventoryWebApp\InventoryWebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Shea Cooke\Desktop\EvenMoreCode\Azure_Project\InventoryWebApp\InventoryWebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Shea Cooke\Desktop\EvenMoreCode\Azure_Project\InventoryWebApp\InventoryWebApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Shea Cooke\Desktop\EvenMoreCode\Azure_Project\InventoryWebApp\InventoryWebApp\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\Shea Cooke\Desktop\EvenMoreCode\Azure_Project\InventoryWebApp\InventoryWebApp\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Shea Cooke\Desktop\EvenMoreCode\Azure_Project\InventoryWebApp\InventoryWebApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
