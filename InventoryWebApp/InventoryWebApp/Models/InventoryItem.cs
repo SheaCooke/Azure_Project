@@ -17,8 +17,8 @@ namespace InventoryWebApp.Models
 
         public double PricePerItem { get; set; }
 
-
-        public InventoryItem(string name, string description, int quantity, double pricePerItem)
+        public InventoryItem() { }
+        public InventoryItem(string name, string description, int quantity, double pricePerItem) :this()
             {
                 this.Name = name;
                 this.Description = description;
