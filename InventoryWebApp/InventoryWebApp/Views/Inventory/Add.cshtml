@@ -6,23 +6,23 @@
     <form method="post" asp-action="AddPost" asp-controller="Inventory">
 
         <label asp-for="Name">Name: </label>
-        <input type="text" asp-for="Name" />
+        <input type="text" asp-for="Name" required/>
         <span asp-validation-for="Name"></span> 
 
 
         <label asp-for="Description">Description: </label>
-        <input type="text" asp-for="Description" />
+        <input type="text" asp-for="Description" required/>
         <span asp-validation-for="Description"></span>
 
         
 
         <label asp-for="Quantity">Quantity: </label>
-        <input type="text" asp-for="Quantity" />
+        <input type="text" asp-for="Quantity" required/>
         <span asp-validation-for="Quantity"></span>
 
 
         <label asp-for="PricePerItem">PricePerItem: </label>
-        <input type="text" asp-for="PricePerItem" />
+        <input type="text" asp-for="PricePerItem" required/>
         <span asp-validation-for="PricePerItem"></span>
         
 

@@ -66,5 +66,40 @@ namespace InventoryWebApp.Controllers
             return Redirect("/Inventory/Index");
         }
 
+
+        public IActionResult Edit(int Id)
+        {
+            ViewBag.item =  _context.InventoryItems.Find(Id);
+
+            InventoryItemsViewModel vm = new InventoryItemsViewModel();
+
+            return View(vm);
+        }
+
+
+        [HttpPost]
+        public IActionResult EditPost(InventoryItemsViewModel vm, [FromRoute]int Id)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.InventoryItems.Where(x => x.Id == vm.Id).ToList().ForEach(x => x.Name = vm.Name);
+                _context.InventoryItems.Where(x => x.Id == vm.Id).ToList().ForEach(x => x.Description = vm.Description);
+                _context.InventoryItems.Where(x => x.Id == vm.Id).ToList().ForEach(x => x.Quantity = vm.Quantity);
+                _context.InventoryItems.Where(x => x.Id == vm.Id).ToList().ForEach(x => x.PricePerItem = vm.PricePerItem);
+
+                _context.SaveChanges();
+
+                return Redirect("/Inventory/Index");
+            }
+
+            return View("Edit", vm);
+            
+        }
+
+
+
+
+
+
     }
 }

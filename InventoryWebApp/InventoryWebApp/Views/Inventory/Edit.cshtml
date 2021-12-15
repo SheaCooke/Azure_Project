@@ -1,0 +1,31 @@
+﻿@using InventoryWebApp.ViewModel 
+@model InventoryItemsViewModel
+
+<div class="box-shadow">
+    <form method="post" asp-action="EditPost" asp-controller="Inventory" asp-route-id="@ViewBag.item.Id">
+
+        <label asp-for="Name">Name: </label>
+        <input type="text" asp-for="Name" value="@ViewBag.item.Name" required/>
+        <span asp-validation-for="Name"></span>
+
+
+        <label asp-for="Description">Description: </label>
+        <input type="text" asp-for="Description" value="@ViewBag.item.Description" required/>
+        <span asp-validation-for="Description"></span>
+
+
+
+        <label asp-for="Quantity">Quantity: </label>
+        <input type="text" asp-for="Quantity" value="@ViewBag.item.Quantity" required/>
+        <span asp-validation-for="Quantity"></span>
+
+
+        <label asp-for="PricePerItem">PricePerItem: </label>
+        <input type="text" asp-for="PricePerItem" value="@ViewBag.item.PricePerItem" required/>
+        <span asp-validation-for="PricePerItem"></span>
+
+
+        <input type="submit" value="Submit" />
+
+    </form>
+</div>
