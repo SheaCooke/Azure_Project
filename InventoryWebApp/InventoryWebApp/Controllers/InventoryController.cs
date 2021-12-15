@@ -52,10 +52,18 @@ namespace InventoryWebApp.Controllers
                 return Redirect("Add");
             }
 
-            return View("Add", vm);
+            return View("Add", vm); 
+        }
 
 
-            
+        
+        public IActionResult Remove(int Id)
+        {
+            _context.InventoryItems.Remove(_context.InventoryItems.Find(Id));
+
+            _context.SaveChanges();
+
+            return Redirect("/Inventory/Index");
         }
 
     }

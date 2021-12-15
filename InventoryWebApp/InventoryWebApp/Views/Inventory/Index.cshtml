@@ -25,7 +25,7 @@
                     <td style="background-color:lightcoral;">@i.Description</td>
                     <td style="background-color:lightcoral;">@i.Quantity</td>
                     <td style="background-color:lightcoral;">@i.PricePerItem</td>
-                    <td style="background-color:lightcoral;"><a asp-controller="User" asp-action="Completed" id="button" asp-route-id="@i.Id">Remove</a></td>
+                    <td style="background-color:lightcoral;"><a asp-controller="Inventory" asp-action="Remove" id="button" asp-route-id="@i.Id">Remove</a></td>
 
                 </tr>
 
